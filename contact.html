@@ -10,23 +10,54 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Accueil</a>
-            <a href="details.html">Détails</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <a href="index.html">Accueil</a>
+                <a href="https://www.sega-mag.com/jeux/arcade" target="_blank" rel="noopener">Jeux</a>
+                <a href="details.html">Détails</a>
+                <a href="contact.html">Contact</a>
+            </ul>
         </nav>
     </header>
     <form>
-        <label for="prenom">Prenom</label>
-        <input type="text" id="prenom" name="prenom" placeholder="Ton prenom" required>
+        <ul>
+            <li><label for="Prénom">Prénom:</label>
+                <input type="text" name="Prénom" id="Prénom" placeholder="Votre Prénom" required>
+            </li>
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required>
+            <li>
+                <label for="Nom">Nom:</label>
+                <input type="text" name="Nom" id="Nom" placeholder="Votre Nom" required>
+            </li>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
+            <li>
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" id="Email" placeholder="Ex:jonesie@gmail.com" required>
+            </li>
 
-        <button type="submit">Envoyer</button>
+            <li>
+                <label for="Mot De Passe">Mot De Passe:</label>
+                <input type="password" name="Mot De Passe" id="Mot De Passe" placeholder="MDP" required>
+            </li>
+
+            <li>
+                <label for="Numéro">Numéro:</label>
+                <input type="number" name="Numéro" id="Numéro" placeholder="06.XX.XX.XX.XX" required>
+            </li>
+
+            <li>
+                <label for="Message">Message:</label>
+            </li>
+
+            <textarea name="Message" id="Message" placeholder="Bonjour..."></textarea>
+
+            <li>
+                <button type="submit">Envoyer</button>
+            </li>
+        </ul>
     </form>
+    <footer>
+        Made with 💰 by Moua Oliver
+    </footer>
 </body>
 
 </html>
